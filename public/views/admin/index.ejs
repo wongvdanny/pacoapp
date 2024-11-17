@@ -1,0 +1,49 @@
+<!-- views/admin/index.ejs -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <!-- Menú lateral -->
+  <div class="sidebar">
+    <h2>Admin Panel</h2>
+    <ul>
+      <li><a href="#">Comandas</a></li>
+      <li><a href="#">Mesas</a></li>
+      <li><a href="#">Empleados</a></li>
+      <li><a href="#">Carta</a></li>
+      <li><a href="#">Almacén</a></li>
+      <li><a href="#">Facturación</a></li>
+      <li><a href="#">Configuración</a></li>
+      <li><a href="#">Soporte</a></li>
+    </ul>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="main-content">
+    <div class="header">
+      <%= title %>
+    </div>
+
+    <div class="section">
+      <h3>Bienvenido al Panel Administrativo</h3>
+      <p>Desde aquí podrás gestionar todos los aspectos relacionados con el restaurante.</p>
+      <button class="btn">Ver Comandas</button>
+      <button class="btn">Ver Mesas</button>
+    </div>
+
+    <div class="section">
+      <h3>Acciones Rápidas</h3>
+      <button class="btn">Gestionar Empleados</button>
+      <button class="btn">Ver Carta</button>
+      <button class="btn">Gestionar Almacén</button>
+    </div>
+  </div>
+
+</body>
+</html>
